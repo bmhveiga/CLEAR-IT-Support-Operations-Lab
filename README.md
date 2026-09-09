@@ -7,9 +7,21 @@
 
 ## Overview
 
-**CLEAR-IT Support Operations Lab** is a practical portfolio repository focused on support operations, professional communication, AI-assisted productivity, remote workflows, client request management, and documentation.
+**CLEAR-IT Support Operations Lab** is a practical portfolio repository focused on the operational side of IT support and service desk work.
 
-The purpose of this lab is to demonstrate how I approach real support work: understanding the request, organizing information, communicating clearly, improving workflows, documenting outputs, and validating results before delivery.
+The repository demonstrates how I approach support interactions from the moment a user reports a problem through clarification, documentation, troubleshooting, communication, follow-up, escalation when required, and final resolution.
+
+The goal is to demonstrate not only technical troubleshooting, but also the communication, documentation, organization, and decision-making skills required in real support environments.
+
+---
+
+## Support Workflow
+
+CLEAR-IT follows a practical support workflow:
+
+**Request → Clarification → Scope → Documentation → Troubleshooting → Communication → Resolution / Escalation → Validation → Closure**
+
+The exact workflow may vary depending on the support channel and the type of issue.
 
 ---
 
@@ -17,109 +29,149 @@ The purpose of this lab is to demonstrate how I approach real support work: unde
 
 This repository is part of my transition into **IT Support and Infrastructure**.
 
-It focuses on the operational side of support work, including:
+It focuses on practical support operations such as:
 
-* user and client communication;
-* ticket-style workflow thinking;
-* AI-assisted productivity;
-* structured documentation;
-* remote work organization;
-* request intake and follow-up;
-* workflow improvement;
-* critical validation of AI-generated outputs.
+- receiving and interpreting user requests;
+- asking effective clarification questions;
+- identifying issue scope and impact;
+- communicating with users through email, chat, tickets, remote support, and in-person support;
+- creating clear ticket and troubleshooting documentation;
+- communicating progress and next steps;
+- documenting technical actions and results;
+- determining when an issue should be escalated;
+- confirming resolution with the user;
+- maintaining professional and useful support communication;
+- using AI tools responsibly when they improve support productivity or documentation.
 
 ---
 
 ## Current Labs
 
-| Lab                                                      | Status    | Description                                                                                                                                                   |
-| -------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ai-literacy-productivity`](./ai-literacy-productivity) | Completed | AI-assisted productivity lab based on a remote-work case study. Includes prompts, initial outputs, improved outputs, final workflow, and critical reflection. |
+| Lab | Status | Description |
+| --- | --- | --- |
+| [`ai-literacy-productivity`](./ai-literacy-productivity/) | Completed | Explores responsible use of AI for support-related productivity, communication, workflow organization, and output validation. |
+| `support-communication-foundations` | Planned | Foundations of effective user communication during support interactions. |
+| `multichannel-support-communication` | Planned | Support communication through email, chat, tickets, remote support, and other channels. |
+| `support-request-intake` | Planned | Turning vague user reports into clear, actionable support requests and tickets. |
+| `ticket-documentation` | Planned | Documenting issues, troubleshooting actions, status, escalation, resolution, and closure. |
+
+---
+
+## Core Support Areas
+
+### Request Intake
+
+Understanding what the user is actually reporting before beginning troubleshooting.
+
+This includes:
+
+- identifying missing information;
+- asking specific clarification questions;
+- identifying the affected user, device, application, or service;
+- determining impact and scope;
+- collecting useful evidence such as screenshots, error messages, and observed behavior.
+
+### Support Communication
+
+Communicating clearly throughout the support interaction.
+
+This includes:
+
+- acknowledging the issue;
+- explaining actions without unnecessary jargon;
+- providing useful status updates;
+- setting clear next steps;
+- avoiding unsupported promises;
+- adapting communication to the support channel.
+
+### Ticket Documentation
+
+Creating an operational record of the support case.
+
+Typical information includes:
+
+- issue;
+- user or affected service;
+- impact;
+- initial information;
+- troubleshooting performed;
+- results;
+- current status;
+- escalation notes;
+- resolution;
+- user confirmation;
+- closure notes.
+
+### Troubleshooting Workflow
+
+Using collected information to investigate the issue systematically.
+
+The repository focuses on documenting:
+
+**symptom → evidence → hypothesis → test → result → next action**
+
+rather than jumping directly from a vague user report to a solution.
+
+### Resolution and Closure
+
+A support case is not complete simply because a technical action was performed.
+
+The final process should include:
+
+- testing the result;
+- confirming that the original issue is resolved;
+- communicating the outcome;
+- documenting the resolution;
+- recording any follow-up actions;
+- closing the support case.
+
+---
+
+## Support Channels
+
+CLEAR-IT explores how support communication changes depending on the channel.
+
+| Channel | Main Purpose |
+| --- | --- |
+| **Chat** | Fast, interactive troubleshooting and clarification |
+| **Email** | Structured explanations, instructions, updates, and follow-up |
+| **Ticket** | Operational documentation and issue tracking |
+| **Remote Support** | Guided or technician-led troubleshooting with continuous communication |
+| **Phone** | Rapid clarification and verbal guidance |
+| **In Person** | Direct observation, troubleshooting, explanation, and validation |
+
+The same technical issue may require different communication depending on the channel.
 
 ---
 
 ## Skills Demonstrated
 
-| Area               | Skills                                                                     |
-| ------------------ | -------------------------------------------------------------------------- |
-| Support Operations | Request handling, follow-up, workflow organization                         |
-| Communication      | Professional client/user responses, clarity, tone, structure               |
-| Documentation      | README files, workflow notes, checklists, reflection                       |
-| AI Productivity    | Prompting, iterative improvement, output validation                        |
-| Remote Work        | Trello-style workflows, Slack communication, Google Workspace organization |
-| Critical Thinking  | Human validation, privacy awareness, quality control                       |
+| Area | Skills |
+| --- | --- |
+| **Support Operations** | Request intake, issue handling, follow-up, escalation, closure |
+| **User Communication** | Clarification, empathy, status updates, next-step communication |
+| **Ticketing** | Issue documentation, troubleshooting notes, status, resolution notes |
+| **Troubleshooting** | Evidence collection, structured testing, validation |
+| **Documentation** | Support notes, templates, checklists, workflows |
+| **Remote Support** | User guidance, authorization, troubleshooting communication |
+| **Critical Thinking** | Scope identification, escalation decisions, validation |
+| **AI Productivity** | Responsible use of AI for drafting, summarization, organization, and review |
 
 ---
 
-## Lab Structure
+## Planned Lab Structure
 
 ```text
 CLEAR-IT-Support-Operations-Lab/
-└── ai-literacy-productivity/
-    ├── README.md
-    ├── prompts/
-    │   └── prompts-used.md
-    ├── outputs/
-    │   ├── initial-outputs.md
-    │   └── improved-outputs.md
-    ├── workflow/
-    │   └── final-workflow.md
-    ├── reflection/
-    │   └── critical-reflection.md
-    ├── source-notes/
-    │   └── session-context.md
-    └── evidence/
-```
-
----
-
-## Featured Lab: AI Literacy for Productivity
-
-The first lab focuses on a simulated remote-work case study involving **Cabo Digital Travel**, a company facing challenges with client communication, repetitive administrative tasks, task organization, and workflow structure.
-
-The lab demonstrates how AI can support:
-
-* drafting professional client responses;
-* improving initial outputs through better prompts;
-* creating operational checklists;
-* structuring remote workflows;
-* documenting critical reflection;
-* validating AI-generated content before professional use.
-
----
-
-## Key Learning Principle
-
-AI can improve productivity, but it does not replace professional judgment.
-
-A strong support workflow still requires:
-
-* clear context;
-* structured prompts;
-* human validation;
-* privacy awareness;
-* accurate documentation;
-* practical decision-making;
-* professional communication.
-
----
-
-## Portfolio Relevance
-
-This repository shows practical evidence for roles such as:
-
-* IT Support Technician;
-* Help Desk Technician;
-* Technical Support Specialist;
-* Support Operations Assistant;
-* Junior Systems Support;
-* Remote Support Assistant.
-
-It demonstrates not only technical learning, but also the communication and documentation habits needed in real support environments.
-
----
-
-## Author
-
-**Bruno Veiga**
-IT Support & Infrastructure Portfolio
+│
+├── ai-literacy-productivity/
+│
+├── support-communication-foundations/
+│
+├── multichannel-support-communication/
+│
+├── support-request-intake/
+│
+├── ticket-documentation/
+│
+└── support-scope-and-escalation/
