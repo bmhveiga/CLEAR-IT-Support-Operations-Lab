@@ -19,7 +19,7 @@ The goal is to demonstrate not only technical troubleshooting, but also the comm
 
 CLEAR-IT follows a practical support workflow:
 
-**Request → Clarification → Scope → Documentation → Troubleshooting → Communication → Resolution / Escalation → Validation → Closure**
+**Request -» Clarification -» Scope -» Documentation -» Troubleshooting -» Communication -» Resolution / Escalation -» Validation -» Closure**
 
 The exact workflow may vary depending on the support channel and the type of issue.
 
