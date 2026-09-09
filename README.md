@@ -108,7 +108,7 @@ Using collected information to investigate the issue systematically.
 
 The repository focuses on documenting:
 
-**symptom → evidence → hypothesis → test → result → next action**
+**symptom -» evidence -» hypothesis -» test -» result -» next action**
 
 rather than jumping directly from a vague user report to a solution.
 
